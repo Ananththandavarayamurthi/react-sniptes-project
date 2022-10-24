@@ -4,7 +4,9 @@ import Price from './components/Price';
 import React from 'react';
 
 let card=[
-  { price:0,
+  { 
+    head:"FREE",
+    price:0,
     user:"Single User",
     userEnabler:true,
     storage:"5GB Storage",
@@ -22,7 +24,8 @@ let card=[
     status:"Monthly Status Report",
     statusEnabler:false,
   },
-  { price:9,
+  { head:"PLUS",
+    price:9,
     user:"5 User",
     userEnabler:true,    
     storage:"50GB Storage",
@@ -41,7 +44,8 @@ let card=[
     statusEnabler:false,
  
   },
-  { price:49,
+  { head:"PRO",
+    price:49,
     user:"Unlimited User",
     userEnabler:true,   
     storage:"150GB Storage",
